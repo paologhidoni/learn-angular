@@ -1,10 +1,5 @@
-# Learn Angular
-
-This is a personal project I will keep updating while learning Angular.
+# Recipes App
 
 ## Main goals
 
-- [x] Build a component.
-- [x] Build a component using CLI.
-- [ ] Style a component.
-- [ ] Build a simple first app.
+This is a simple app to learn the basics of Angular.
