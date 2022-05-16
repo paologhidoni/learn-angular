@@ -9,8 +9,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-      'A recipe to make a fantastic Aperol Spritz',
       'Aperol Spritz',
+      'A recipe to make a fantastic Aperol Spritz',
       'https://recipesavant.blob.core.windows.net/food/Classic-Aperol-Spritz-1-f82161_facebook.jpg'
     ),
   ];
