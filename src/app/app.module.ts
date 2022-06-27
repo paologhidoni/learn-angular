@@ -29,4 +29,6 @@ import { DropdownDirective } from './shared/dropdown.directive';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+
+}
