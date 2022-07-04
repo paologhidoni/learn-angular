@@ -20,4 +20,15 @@ export class ShoppingListService {
         // and update the ingredients array with this new version.
         this.ingredientsChanged.emit(this.ingredients.slice());
     }
+
+    updateIngredients(newIngredients: Ingredient[]) {
+        console.log(newIngredients)
+
+        // add logic to update amount of ingredient if it already exists, instead of adding it again
+        
+        this.ingredients.push(...newIngredients);
+        this.ingredientsChanged.emit(this.ingredients.slice());
+
+
+    }
 }
