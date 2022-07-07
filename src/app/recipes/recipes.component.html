@@ -2,7 +2,7 @@
   <div class="col-md-5">
     <app-recipe-list (recipeToDisplay)="storeRecipe($event)"></app-recipe-list>
   </div>
-
+ 
   <div class="col-md-7">
     <app-recipe-detail
       *ngIf="currentRecipeToDisplay; else infoText"
